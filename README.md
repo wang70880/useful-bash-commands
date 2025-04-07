@@ -11,3 +11,6 @@ Tired of always googling commands for tasks (e.g., check if port is open)? A che
 
 ## Capture Packets Using Tcpdump
 ``tcpdump -i any -w PCAP_FILE_PATH host HOST_IP``
+
+## Locate file names that contains some string under some directory
+``grep -rl --include="*.txt" "your_string_here" /path/to/search/root/directory``
